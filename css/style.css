@@ -1,0 +1,78 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(17, 48, 41),rgba(17, 65, 71, 0.822));
+}
+
+.logo{
+    /* border: 1px solid green; */
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #81bdaa;
+}
+
+
+
+.container{
+    width: 700px;
+    height: 65vh;
+    margin: auto;
+    background-color: rgb(31 79 82);
+    padding: 18px;
+    border: 2px solid black;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    
+}
+
+.message{
+    background-color: rgb(154, 241, 227);
+    width: 32%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+#send-container{
+    width: 100%;
+    text-align: center;
+}
+
+#messageInp{
+    width: 51%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(17, 65, 71, 0.822);
+    color: white;
+}
